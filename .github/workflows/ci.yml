@@ -23,7 +23,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-  Run
+  Run:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
