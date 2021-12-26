@@ -22,7 +22,7 @@ jobs:
         black .
     - name: Test with pytest
       run: |
-        python -m pytest
+        python -m unittest test/test_main.py
   Run:
     runs-on: ubuntu-latest
     steps:
