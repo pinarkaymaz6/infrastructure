@@ -1,8 +1,4 @@
-import sys
-
-sys.path.append("/Users/pinarkaymaz/Documents/GitHub/infrastructure/src")
-
-from main import get_cat_fact
+from src.main import get_cat_fact
 from unittest.mock import Mock, patch
 
 
